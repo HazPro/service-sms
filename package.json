@@ -1,0 +1,30 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "repository": "git@github.com:HazPro/service-sms.git",
+  "author": "Anton Pronin <pronin@hazpro.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build":"rm -rf ./build && tsc"
+  },
+  "dependencies": {
+    "@hazpro/auth": "^1.0.4",
+    "@hazpro/queue": "^1.0.7",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.12",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.19",
+    "@types/node": "^10.12.18",
+    "@types/request-promise": "^4.1.42",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  }
+}
